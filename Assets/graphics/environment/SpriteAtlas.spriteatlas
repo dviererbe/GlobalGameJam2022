@@ -229,6 +229,9 @@ SpriteAtlas:
   - {fileID: 6778480818890159566, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - {fileID: -2039834914796792061, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - {fileID: -1915106261879632516, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
+  - {fileID: -8332904561341732116, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
+  - {fileID: -6434581153930333471, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
+  - {fileID: 5983689754608168342, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - {fileID: -972022344147636840, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - {fileID: -6220490289236402291, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - {fileID: -5712667982438251384, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
@@ -481,6 +484,9 @@ SpriteAtlas:
   - PathAndObjects_90
   - PathAndObjects_93
   - PathAndObjects_92
+  - PathAndObjects_253
+  - PathAndObjects_252
+  - PathAndObjects_251
   - PathAndObjects_250
   - PathAndObjects_150
   - PathAndObjects_151

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class PlayerMovementControls : MonoBehaviour
 {
     [SerializeField]
@@ -17,20 +18,16 @@ public class PlayerMovementControls : MonoBehaviour
     public Vector2 MovementDirection { get; private set; }
 
     private Rigidbody2D Rigidbody;
-
+    private Animator Animator;
     public bool IsSprinting { get; private set; }
 
     void Start()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
         IsSprinting = false;
         MovementDirection = new Vector2();
     }
-
-    /*
-    void Update()
-    {
-    }*/
 
     private void FixedUpdate()
     {
@@ -44,13 +41,17 @@ public class PlayerMovementControls : MonoBehaviour
         if (inputDirection == Vector2.zero)
         {
             MovementDirection = Vector2.zero;
+            Animator.SetBool("IsWalking", false);
             return;
         }
 
-        MovementDirection = ClipTo90DegreeAngle(inputDirection);
+        int AnimationDirection;
+        (MovementDirection, AnimationDirection) = ClipTo90DegreeAngle(inputDirection);
+        Animator.SetBool("IsWalking", true);
+        Animator.SetInteger("Direction", AnimationDirection);
     }
 
-    private static Vector2 ClipTo90DegreeAngle(Vector2 direction)
+    private static (Vector2 MovementDirection, int AnimationDirection) ClipTo90DegreeAngle(Vector2 direction)
     {
         const float a = Mathf.PI / 4f;
         const float b = 3 * a;
@@ -60,15 +61,15 @@ public class PlayerMovementControls : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x);
 
         if (angle >= b)
-            return Vector2.left;
+            return (Vector2.left, 2);
         else if (angle > a)
-            return Vector2.up;
+            return (Vector2.up, 1);
         else if (angle >= c)
-            return Vector2.right;
+            return (Vector2.right, 3);
         else if (angle > d)
-            return Vector2.down;
+            return (Vector2.down, 0);
         else
-            return Vector2.left;
+            return (Vector2.left, 2);
     }
 
     /*
