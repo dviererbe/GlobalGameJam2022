@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WelcomeScreenActions : MonoBehaviour
 {
+    private const int IntroSceneId = 1;
+
     [SerializeField]
     private GameObject PopupOverlay;
 
@@ -18,7 +21,7 @@ public class WelcomeScreenActions : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("Let's Go!");
+        SceneManager.LoadScene(IntroSceneId);
     }
 
     public void ShowTeamInfos()
