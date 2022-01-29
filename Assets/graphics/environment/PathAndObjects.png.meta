@@ -533,6 +533,15 @@ TextureImporter:
   - first:
       213: -972022344147636840
     second: PathAndObjects_250
+  - first:
+      213: 5983689754608168342
+    second: PathAndObjects_251
+  - first:
+      213: -6434581153930333471
+    second: PathAndObjects_252
+  - first:
+      213: -8332904561341732116
+    second: PathAndObjects_253
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -903,7 +912,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1864,10 +1873,10 @@ TextureImporter:
       name: PathAndObjects_64
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 0
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1885,10 +1894,10 @@ TextureImporter:
       name: PathAndObjects_65
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 32
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3040,10 +3049,10 @@ TextureImporter:
       name: PathAndObjects_115
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 63
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5838,7 +5847,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5859,7 +5868,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5880,7 +5889,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5888,6 +5897,69 @@ TextureImporter:
       bones: []
       spriteID: 89d6657f3dea282f0800000000000000
       internalID: -972022344147636840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_251
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d609df0265a0350800000000000000
+      internalID: 5983689754608168342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_252
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e23f894886c3b6a0800000000000000
+      internalID: -6434581153930333471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_253
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea6ef973739b5c80800000000000000
+      internalID: -8332904561341732116
       vertices: []
       indices: 
       edges: []
