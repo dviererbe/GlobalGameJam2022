@@ -5700,8 +5700,9 @@ MonoBehaviour:
     in \"CREDITS-rocks.txt\" in folder\r\n       [LPC] Rocks by bluecarrot16, Johann
     Charlot, Yar, Hyptosis, Evert, Lanea Zimmerman (Sharm), Guillaume Lecollinet,
     Richard Kettering (Jetrel), Zachariah Husiar (Zabin), Jetrel, Hyptosis, Redshrike,
-    Rayane F\xE9lix (RayaneFLX), Michele Bucelli (Buch) <https://opengameart.org/users/buch>\r\n\r\n\u2022
-    \"nails.png\" | BizmasterStudios | CC-BY 4.0 | materials for UI | https://opengameart.org/content/rpg-crafting-material-icons\r"
+    Rayane F\xE9lix (RayaneFLX), Michele Bucelli (Buch) <https://opengameart.org/users/buch>\r\n\r\u2022
+    \"nails.png\" | BizmasterStudios | CC-BY 4.0 | materials for UI | https://opengameart.org/content/rpg-crafting-material-icons\r\n\u2022
+    \"IconsPJ.png\" | BizmasterStudios | CC-BY 4.0 | pickaxe, showel and axe | https://opengameart.org/content/tool-icons"
 --- !u!222 &1351970733
 CanvasRenderer:
   m_ObjectHideFlags: 0
