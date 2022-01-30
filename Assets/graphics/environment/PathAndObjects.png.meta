@@ -542,6 +542,12 @@ TextureImporter:
   - first:
       213: -8332904561341732116
     second: PathAndObjects_253
+  - first:
+      213: 2835428850238039002
+    second: water-grass-InnerCurve_right
+  - first:
+      213: 1319544371683413359
+    second: water-grass-InnerCurve_left
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -5960,6 +5966,48 @@ TextureImporter:
       bones: []
       spriteID: cea6ef973739b5c80800000000000000
       internalID: -8332904561341732116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-grass-InnerCurve_right
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 108
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3255c3487795720800000000000000
+      internalID: 2835428850238039002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-grass-InnerCurve_left
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d4e836d96ff4210800000000000000
+      internalID: 1319544371683413359
       vertices: []
       indices: 
       edges: []
