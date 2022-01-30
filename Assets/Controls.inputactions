@@ -211,6 +211,45 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Camera",
+            "id": "5a533c7b-547c-4b46-a18e-349b64f3a8d6",
+            "actions": [
+                {
+                    "name": "Zoom",
+                    "type": "Value",
+                    "id": "3ff4cb42-3ff4-40a0-b397-ec2a4a9585a2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9162b03a-1d52-4fea-a549-75e040c40644",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=-1,max=1)",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d555a9e8-7a8b-4ad1-b4e0-a8102beda79a",
+                    "path": "<Gamepad>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

@@ -16,6 +16,8 @@ public class PlayerMovementControls : MonoBehaviour
     public float MovementVelocity => BaseVelocity * (IsSprinting ? SprintingMultiplyer : 1.0f);
 
     public Vector2 MovementDirection { get; private set; }
+    public Vector2 CurrectDirection { get; private set; }
+    public float CurrectVelocity => Rigidbody.velocity.magnitude;
 
     private Rigidbody2D Rigidbody;
     private Animator Animator;
@@ -27,6 +29,7 @@ public class PlayerMovementControls : MonoBehaviour
         Animator = GetComponent<Animator>();
         IsSprinting = false;
         MovementDirection = new Vector2();
+        CurrectDirection = Vector2.down;
     }
 
     private void FixedUpdate()
@@ -49,6 +52,7 @@ public class PlayerMovementControls : MonoBehaviour
         (MovementDirection, AnimationDirection) = ClipTo90DegreeAngle(inputDirection);
         Animator.SetBool("IsWalking", true);
         Animator.SetInteger("Direction", AnimationDirection);
+        CurrectDirection = MovementDirection;
     }
 
     private static (Vector2 MovementDirection, int AnimationDirection) ClipTo90DegreeAngle(Vector2 direction)
