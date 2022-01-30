@@ -6318,13 +6318,13 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "We got to know each other during our study time at Harz University of
-    Applied Science in Wernigerode, Germany.\n\nJustine Flohr (student \"conception
-    of media and games\"):\n    Concept, Story and Art (story visualisation)\nDominik
-    Viererbe (student \"technical engineering\"):\n    Concept, Programming\nSabine
-    M. Heyne (graduate \"conception of media and games\"):\n    Gameplay, UI, implementation
-    in Unity and Art (tile textures, character)\nViola H\xF6\xDFl (student \"conception
-    of media and games\"):\n    Concept, Art (character)\n\nGermany, Januar 2022\n\nThanks
-    for playing!"
+    Applied Science in Wernigerode, Germany.\n\nJustine Flohr (student \"Media and
+    Game Design\"):\n    Concept, Story and Art (story visualisation)\nDominik Viererbe
+    (student \"technical engineering\"):\n    Concept, Programming\nSabine M. Heyne
+    (graduate \"Media and Game Design\"):\n    Gameplay, UI, implementation in Unity
+    and Art (tile textures, character)\nViola H\xF6\xDFl (student \"Media and Game
+    Design\"):\n    Concept, Art (character)\n\nGermany, Januar 2022\n\nThanks for
+    playing!"
 --- !u!222 &1689855868
 CanvasRenderer:
   m_ObjectHideFlags: 0
