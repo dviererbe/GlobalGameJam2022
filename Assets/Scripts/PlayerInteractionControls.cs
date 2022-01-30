@@ -9,6 +9,15 @@ using UnityEngine;
 public class PlayerInteractionControls : MonoBehaviour
 {
     [SerializeField]
+    private GameObject ShovelUIElement;
+
+    [SerializeField]
+    private GameObject PickaxeUIElement;
+
+    [SerializeField]
+    private GameObject AxeUIElement;
+
+    [SerializeField]
     private float InteractionRange = 3f;
 
     private Tool _currentlySelectedTool;
@@ -20,6 +29,10 @@ public class PlayerInteractionControls : MonoBehaviour
         {
             _currentlySelectedTool = value;
             Animator.SetInteger("SelectedTool", _currentlySelectedTool.Id);
+
+            PickaxeUIElement.SetActive(_currentlySelectedTool.Id == 1);
+            ShovelUIElement.SetActive(_currentlySelectedTool.Id == 2);
+            AxeUIElement.SetActive(_currentlySelectedTool.Id == 3);
         }
     }
 
@@ -43,6 +56,11 @@ public class PlayerInteractionControls : MonoBehaviour
     public void OnSelectPreviousTool()
     {
         CurrentlySelectedTool = CurrentlySelectedTool.PreviousTool();
+    }
+
+    public void OnChangeAge()
+    {
+        Animator.SetBool("IsAdult", !Animator.GetBool("IsAdult"));
     }
 
     public void OnInteract()

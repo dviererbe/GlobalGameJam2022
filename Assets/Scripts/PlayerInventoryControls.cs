@@ -1,9 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerInventoryControls : MonoBehaviour
 {
+    [SerializeField]
+    private Text ClayCountText;
+
+    [SerializeField]
+    private Text WoodCountText;
+
+    [SerializeField]
+    private Text StoneCountText;
+
     private uint _woodCount;
     private uint _stoneCount;
     private uint _clayCount;
@@ -14,7 +24,7 @@ public class PlayerInventoryControls : MonoBehaviour
         set
         {
             _woodCount = value;
-            Debug.Log($"New Wood Count: {_woodCount}");
+            WoodCountText.text = value.ToString();
         }
     }
 
@@ -24,7 +34,7 @@ public class PlayerInventoryControls : MonoBehaviour
         set
         {
             _stoneCount = value;
-            Debug.Log($"New Stone Count: {_stoneCount}");
+            StoneCountText.text = value.ToString();
         }
     }
 
@@ -34,7 +44,7 @@ public class PlayerInventoryControls : MonoBehaviour
         set
         {
             _clayCount = value;
-            Debug.Log($"New Clay Count: {_woodCount}");
+            ClayCountText.text = value.ToString();
         }
     }
 
