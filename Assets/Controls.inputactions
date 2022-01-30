@@ -378,6 +378,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "LoadFlashback1",
+                    "type": "Button",
+                    "id": "4cc3f179-c85d-4bb3-8268-204b40fbf51e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadFlashback2",
+                    "type": "Button",
+                    "id": "9e5e78f3-9029-47a8-8d91-6a6e1174f736",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadFlashback3",
+                    "type": "Button",
+                    "id": "d6eb6519-9152-4136-810a-f21ff74266cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadFlashback4",
+                    "type": "Button",
+                    "id": "994aed57-2d56-4e3f-b6f7-72c98a87ddd0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -400,6 +436,50 @@
                     "processors": "",
                     "groups": "",
                     "action": "ContinueStory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf292b16-cf76-4e58-a186-678079f65dec",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadFlashback1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "693fdef0-80ba-4aee-a275-dfac8d477ae3",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadFlashback2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed912c0f-e170-4cae-9110-df5141d9d172",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadFlashback3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "884430c9-90ca-4a27-84f5-4a04587afa23",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadFlashback4",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

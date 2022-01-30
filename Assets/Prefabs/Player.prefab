@@ -1594,8 +1594,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShovelUIElement: {fileID: 1490740154646795883}
-  PickaxeUIElement: {fileID: 326710649569557719}
-  AxeUIElement: {fileID: 5538981174522273809}
+  PickaxeUIElement: {fileID: 5538981174522273809}
+  AxeUIElement: {fileID: 326710649569557719}
   InteractionRange: 3
 --- !u!1 &8657191337137815073
 GameObject:
