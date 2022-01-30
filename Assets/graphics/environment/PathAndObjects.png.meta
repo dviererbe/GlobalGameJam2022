@@ -548,6 +548,12 @@ TextureImporter:
   - first:
       213: 1319544371683413359
     second: water-grass-InnerCurve_left
+  - first:
+      213: 6428987630943665569
+    second: water-grass-innerCurve_ul
+  - first:
+      213: 60522434685259379
+    second: water-grass-innerCurve_ur
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -5979,7 +5985,7 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6000,7 +6006,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6008,6 +6014,48 @@ TextureImporter:
       bones: []
       spriteID: f6d4e836d96ff4210800000000000000
       internalID: 1319544371683413359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-grass-innerCurve_ul
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adf6c7203a583950800000000000000
+      internalID: 6428987630943665569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-grass-innerCurve_ur
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 142
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e4b5c65d407d000800000000000000
+      internalID: 60522434685259379
       vertices: []
       indices: 
       edges: []
