@@ -31,6 +31,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Select Next Tool",
+                    "type": "Button",
+                    "id": "d45cbb04-c164-464f-ad86-e60ecd143786",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Select Previous Tool",
+                    "type": "Button",
+                    "id": "6d169ca1-de11-470c-8b7c-c870101329c8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -157,17 +175,6 @@
                 },
                 {
                     "name": "",
-                    "id": "f1e5f4c0-f8fb-42f0-a8cc-52e5a93fd992",
-                    "path": "<Gamepad>/dpad",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "8e596bac-c904-4e38-91c6-453d40d178d8",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -201,12 +208,56 @@
                 },
                 {
                     "name": "",
-                    "id": "6baac478-39a2-499e-adf5-bca78da90b35",
+                    "id": "3ff9b928-ec48-4bbb-aa0f-0321427794c3",
                     "path": "<Gamepad>/rightShoulder",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "135b4f06-346a-4910-9446-46a3cd5ccfcc",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select Next Tool",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8aa63ed6-d661-4cec-8615-1e7689a4d574",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select Next Tool",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6ed801e-3851-4a55-a771-b6d427d7b5f4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select Previous Tool",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59a17931-1cc0-407a-a548-d4569d7085bc",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select Previous Tool",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -232,7 +283,7 @@
                     "id": "9162b03a-1d52-4fea-a549-75e040c40644",
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
-                    "processors": "AxisDeadzone(min=-1,max=1)",
+                    "processors": "Invert",
                     "groups": "",
                     "action": "Zoom",
                     "isComposite": false,
@@ -243,11 +294,44 @@
                     "id": "d555a9e8-7a8b-4ad1-b4e0-a8102beda79a",
                     "path": "<Gamepad>/rightStick/y",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "Invert",
                     "groups": "",
                     "action": "Zoom",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "L2/R2",
+                    "id": "3c71a288-7dd4-433c-9389-38289406c2e5",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "92e89c98-a3a2-41be-bf7a-e08de5d2c5a5",
+                    "path": "<Gamepad>/leftTriggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "23669486-81f0-475e-a7bd-792092029ef7",
+                    "path": "<Gamepad>/rightTriggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

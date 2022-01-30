@@ -7,12 +7,17 @@ using UnityEngine.InputSystem;
 public class CameraControls : MonoBehaviour
 {
     [SerializeField]
-    private float MinZoomLevel = 10;
+    private float ZoomVelocity = 1.5f;
 
     [SerializeField]
-    private float MaxZoomLevel = 10;
+    private float MinZoomLevel = 1.5f;
+
+    [SerializeField]
+    private float MaxZoomLevel = 5f;
 
     private Camera Camera;
+
+    private float ZoomDirection;
 
     public void Start()
     {
@@ -21,11 +26,16 @@ public class CameraControls : MonoBehaviour
 
     public void Update()
     {
-        
+        if (ZoomDirection == 0f) return;
+
+        Camera.orthographicSize = Mathf.Clamp(
+            value: Camera.orthographicSize + ZoomDirection * ZoomVelocity * Time.deltaTime,
+            MinZoomLevel,
+            MaxZoomLevel);
     }
 
     public void OnZoom(InputValue value)
     {
-        Debug.Log($"Zoom {value.Get<float>()}");
+        ZoomDirection = value.Get<float>();
     }
 }
