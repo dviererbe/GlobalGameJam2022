@@ -32,7 +32,7 @@ public class PlayerInteractionControls : MonoBehaviour
         Animator = GetComponent<Animator>();
         PlayerInventoryControls = GetComponent<PlayerInventoryControls>();
 
-        CurrentlySelectedTool = new Pickaxe();
+        CurrentlySelectedTool = new Axe();
     }
 
     public void OnSelectNextTool()
