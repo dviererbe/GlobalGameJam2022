@@ -334,6 +334,45 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "Cutscenes",
+            "id": "b049c527-dc5e-414d-bc62-c2a3a070282f",
+            "actions": [
+                {
+                    "name": "ContinueStory",
+                    "type": "Button",
+                    "id": "43fdd5f0-5a12-466b-8543-11e2a7926dd9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2811f01b-e79a-4d30-8dba-f6e941b5a327",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ContinueStory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c81d64a6-5c59-48d6-a4a9-01094973c253",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ContinueStory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

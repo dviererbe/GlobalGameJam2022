@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class WelcomeScreenActions : MonoBehaviour
 {
-    private const int IntroSceneId = 1;
-
     [SerializeField]
     private GameObject PopupOverlay;
 
@@ -21,7 +19,7 @@ public class WelcomeScreenActions : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(IntroSceneId);
+        SceneManager.LoadScene(SceneIds.Intro);
     }
 
     public void ShowTeamInfos()
