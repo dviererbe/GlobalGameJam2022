@@ -128,6 +128,7 @@ SpriteAtlas:
   - {fileID: -6278589388057012257, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -5530625792645506262, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 5730995202341517000, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
+  - {fileID: -2110576210301090644, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 1983398907265740532, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -5284142959715309416, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -8672022706056657999, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
@@ -241,6 +242,7 @@ SpriteAtlas:
   - {fileID: -930297192842465736, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 3854132907821197286, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -8616629765128795178, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
+  - {fileID: 5531675260745432867, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 8094275521058329023, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -4971566075957634945, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -5663374243960955467, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
@@ -338,7 +340,6 @@ SpriteAtlas:
   - {fileID: 5633245250141679741, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -248356475595594672, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 3251412086223208597, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
-  - {fileID: 1012231177350733324, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: -3707988629720560889, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 3503880069622270700, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
   - {fileID: 3877769259837329966, guid: a6b420c32d3a80d49880aa7449a20e57, type: 3}
@@ -1310,6 +1311,7 @@ SpriteAtlas:
   - rocks_161
   - rocks_160
   - rocks_163
+  - resources_bolder_high
   - rocks_781
   - rocks_162
   - rocks_114
@@ -1423,6 +1425,7 @@ SpriteAtlas:
   - rocks_313
   - rocks_374
   - rocks_310
+  - resources_bolder_lower
   - rocks_375
   - rocks_311
   - rocks_305
@@ -1520,7 +1523,6 @@ SpriteAtlas:
   - rocks_879
   - rocks_323
   - rocks_248
-  - rocks_256
   - rocks_224
   - rocks_236
   - rocks_280

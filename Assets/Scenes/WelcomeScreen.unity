@@ -160,7 +160,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 12.5}
-  m_SizeDelta: {x: 300, y: 75}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55949216
 MonoBehaviour:
@@ -844,21 +844,21 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 2, z: 0}
+  - first: {x: -4, y: 2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 12
-      m_TileSpriteIndex: 12
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 3, z: 0}
+  - first: {x: -4, y: 3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 11
-      m_TileSpriteIndex: 11
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -909,9 +909,9 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: e4cf63c051a5b0547aa9a3488d87c39e, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 37300736c1566e44ca682357df2b5bb5, type: 2}
-  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: f19a1d3558fd22044b8f96093dee89ff, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 37300736c1566e44ca682357df2b5bb5, type: 2}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: 648634294e84acf4380f265dabff50b3, type: 2}
   - m_RefCount: 2
@@ -968,9 +968,9 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 5652156484804285039, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -7985206574291674233, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
-  - m_RefCount: 1
     m_Data: {fileID: -7823662547717239379, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -7985206574291674233, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - m_RefCount: 10
     m_Data: {fileID: -7151751831123646462, guid: 73e96158bc06b6c499d290e862497d68, type: 3}
   - m_RefCount: 2
@@ -4848,10 +4848,10 @@ RectTransform:
   m_Father: {fileID: 280132758}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: 600, y: 102.3}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -61.7}
+  m_SizeDelta: {x: 600, y: 102.29999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565635293
 MonoBehaviour:
@@ -4866,7 +4866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9228925, b: 0.8443396, a: 1}
+  m_Color: {r: 1, g: 0.76862746, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4875,7 +4875,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: eaea40bf1f7eb9b4f9418524950d3b10, type: 3}
-    m_FontSize: 60
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -4886,7 +4886,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to our town RPG
+  m_Text: Night as Day
 --- !u!222 &565635294
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4968,8 +4968,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 167.3, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944535979
 MonoBehaviour:
@@ -4993,9 +4993,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.990566, g: 0.5819454, b: 0.40650588, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.5990566, b: 0.5990566, a: 1}
-    m_PressedColor: {r: 1, g: 0.5880826, b: 0.2688679, a: 1}
-    m_SelectedColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 0.76862746, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -5234,8 +5234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -225}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -175}
+  m_SizeDelta: {x: 167.3, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143301782
 MonoBehaviour:
@@ -5259,9 +5259,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.5566038, g: 0.3986845, b: 0.20216268, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.5990566, b: 0.5990566, a: 1}
-    m_PressedColor: {r: 1, g: 0.5880826, b: 0.2688679, a: 1}
-    m_SelectedColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 0.76862746, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -5680,13 +5680,28 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Audio:\n\u2022 Item Received.wav | spookymodem | CC-BY 3.0 | \xD6ffnen
-    des Inventarbeutels | https://opengameart.org/content/inventory-bag\r\n\u2022
-    ui click 1 [2018-10-13 162315].wav | m1chiboi | CC0 | UI Sound | https://opengameart.org/content/ui-soundpack-by-m1chiboi-bleeps-and-clicks\r\n\nVisuals:\n\u2022
-    PathAndObjects.png | Zabin, Daneeklu, Jetrel, Hyptosis, Redshrike, Bertram |
-    CC-BY-SA 3.0 | BG tiles + things market square | https://opengameart.org/content/rpg-tiles-cobble-stone-paths-town-objects\r\n\nFonts:\n\u2022
-    Bebas Neue Regular | Ryoichi Tsunekawa | SIL Open Font License, Version 1.1.
-    | \thttps://fonts.google.com/specimen/Bebas+Neue#about"
+  m_Text: "How to read this: filename | author/ contributor | License | description
+    | link\r\n\r\nFonts\r\n\r\n    \"Bebas Neue Regular\" | Ryoichi Tsunekawa | SIL
+    Open Font License, Version 1.1. | https://fonts.google.com/specimen/Bebas+Neue#about\r\n\r\nVisuals\r\n\r\n\u2022
+    \"tileset.png\" | Buch | CC0 Background tiles https://opengameart.org/content/happyland-tileset\r\n\u2022
+    \"PathAndObjects.png\" |  Zabin, Daneeklu, Jetrel, Hyptosis, Redshrike, Bertram
+    CC-BY-SA 3.0 BG tiles + things market square https://opengameart.org/content/rpg-tiles-cobble-stone-paths-town-objects\r\n\u2022
+    \"TEMPLATE.png\" | Cabbit | CC0 | Base for character | https://opengameart.org/content/24x32-bases\r\n\u2022
+    \"pixel_nature.png\" | Deeppixel | CC0 | Trees | https://opengameart.org/content/mountain-hause-and-trees\r\n       
+    \"Tiles_nature.png\" | SMHeyne | CC0 | Tree trunks + gravel path\r\n        Based
+    on pixel_nature.png by Deeppixel\r\n\u2022 \"signpost-outsidestuff.png\" | Reemax
+    | CC-BY-SA 3.0 / GPL 3.0 | Signposts | https://opengameart.org/node/31884\r\n       
+    Attribution to Nemisys, Daniel Eddeland (Link) and Tuomo Untinen\r\n\u2022 \"lpc_grave_markers_rework-1.3.zip\"
+    | AntumDeluge | CC-BY-SA 3.0 / GPL 3.0 | Graves | https://opengameart.org/content/lpc-grave-markers-rework\r\n       
+    All informations in \"README.txt\" in folder\r\n        Created by Barbara Rivera,
+    Casper Nilsson, Carlo Enrico Victoria, Tuomo Untinen, ak-blanc, Johann C, & Jordan
+    Irwin (AntumDeluge)\r\n\u2022 \"rocks.zip\" | bluecarrot16 | CC-BY-SA 4.0 / CC-BY-SA
+    3.0 | Stones | https://opengameart.org/content/lpc-rocks\r\n       All informations
+    in \"CREDITS-rocks.txt\" in folder\r\n       [LPC] Rocks by bluecarrot16, Johann
+    Charlot, Yar, Hyptosis, Evert, Lanea Zimmerman (Sharm), Guillaume Lecollinet,
+    Richard Kettering (Jetrel), Zachariah Husiar (Zabin), Jetrel, Hyptosis, Redshrike,
+    Rayane F\xE9lix (RayaneFLX), Michele Bucelli (Buch) <https://opengameart.org/users/buch>\r\n\r\n\u2022
+    \"nails.png\" | BizmasterStudios | CC-BY 4.0 | materials for UI | https://opengameart.org/content/rpg-crafting-material-icons\r"
 --- !u!222 &1351970733
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5810,8 +5825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 167.3, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1391001556
 MonoBehaviour:
@@ -5835,9 +5850,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 0.7849148, b: 0.3254717, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.5990566, b: 0.5990566, a: 1}
-    m_PressedColor: {r: 1, g: 0.5880826, b: 0.2688679, a: 1}
-    m_SelectedColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 0.76862746, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -6303,11 +6318,12 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "We got to know each other during our study time at Harz University of
     Applied Science in Wernigerode, Germany.\n\nJustine Flohr (student \"conception
-    of media and games\"):\n\tConcept, Story and Art\nDominik Viererbe (student \"technical
-    engineering\"):\n\tConcept, Programming\nSabine M. Heyne (graduate \"conception
-    of media and games\"):\n\tGameplay, UI, implementation in Unity and Art\nViola
-    H\xF6\xDFl (student \"conception of media and games\"):\n\tConcept\n\nGermany,
-    Januar 2022\n\nThanks for playing!"
+    of media and games\"):\n    Concept, Story and Art (story visualisation)\nDominik
+    Viererbe (student \"technical engineering\"):\n    Concept, Programming\nSabine
+    M. Heyne (graduate \"conception of media and games\"):\n    Gameplay, UI, implementation
+    in Unity and Art (tile textures, character)\nViola H\xF6\xDFl (student \"conception
+    of media and games\"):\n    Concept, Art (character)\n\nGermany, Januar 2022\n\nThanks
+    for playing!"
 --- !u!222 &1689855868
 CanvasRenderer:
   m_ObjectHideFlags: 0
