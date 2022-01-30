@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6015253350658690427}
   - component: {fileID: 4025458644189299651}
   - component: {fileID: 4575355998075389596}
+  - component: {fileID: 4888476447181950295}
   m_Layer: 0
   m_Name: Tree_round
   m_TagString: Untagged
@@ -95,3 +96,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1265ef07829c3a46b2354de76fb1386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!70 &4888476447181950295
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840911023721512776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 2.8125, y: 3.34375}
+  m_Direction: 0
