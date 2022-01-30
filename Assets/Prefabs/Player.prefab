@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 29e93c97593a3a0428f55d469be8d9e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -209,8 +209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f9074f649c49f4b8d9a3864ce9d01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinZoomLevel: 10
-  MaxZoomLevel: 10
+  ZoomVelocity: 1.5
+  MinZoomLevel: 1.5
+  MaxZoomLevel: 5
 --- !u!1 &7343175320468367118
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,5 +386,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractionRange: 3
-  InteractionWidth: 0.1
-  obj: {fileID: 0}
